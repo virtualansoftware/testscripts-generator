@@ -1,11 +1,12 @@
 ## maven plugin for "testscripts-generator"
 
 ### Why do we need maven plugin?
-Currently, the testng test java code created in all the project. This one will help to generate the testng Java code for workflow ymls projected in the pom.xml.
-This will remove the boiler plate code repeated for any idaithalam java project.
+Currently, the testng test class code created and repeated in all the project. 
+This one will help to generate the testng Java code for workflow ymls projected via maven plugin.
+This will remove the boiler plate code which repeated for any idaithalam java project.
 
 ### How will this work?
-This generator will create Java class and test method for all the configured ymls.
+This generator will create Java class and test method for all the given ymls.
 
 ```xml
 <plugin>
@@ -59,4 +60,4 @@ public class RestTestPlanExecutor {
 }
 ```
 
-### Email US info@virtualan.io for any questions.
+#### Email info@virtualan.io for any questions.
