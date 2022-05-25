@@ -159,10 +159,6 @@
         </license>
     </licenses>
 
-    <scm>
-        <url>https://github.com/virtualansoftware/testscripts-generator</url>
-    </scm>
-
     <issueManagement>
         <system>Github Issue</system>
         <url>https://github.com/virtualansoftware/testscripts-generator/issues</url>
