@@ -1,1 +1,1 @@
-# testscripts-generator-maven-plugin
+# testscripts-generator
