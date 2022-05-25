@@ -16,7 +16,6 @@
     <description>testscripts-generator-maven-plugin</description>
     <url>https://github.com/virtualansoftware/testscripts-generator</url>
 
-    <url>https://virtualan.io</url>
     <scm>
         <connection>scm:git:ssh://git@github.com/virtualansoftware/testscripts-generator.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/virtualansoftware/testscripts-generator.git</developerConnection>
