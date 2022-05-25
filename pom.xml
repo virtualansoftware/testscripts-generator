@@ -1,5 +1,10 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>5</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.virtualan</groupId>
@@ -10,6 +15,21 @@
     <name>testscripts-generator</name>
     <description>testscripts-generator-maven-plugin</description>
     <url>https://github.com/virtualansoftware/testscripts-generator</url>
+
+    <url>https://virtualan.io</url>
+    <scm>
+        <connection>scm:git:ssh://git@github.com/virtualansoftware/testscripts-generator.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/virtualansoftware/testscripts-generator.git</developerConnection>
+        <url>https://github.com/virtualansoftware/testscripts-generator.git</url>
+        <tag>testscripts-generator-0.1.0</tag>
+    </scm>
+    <developers>
+        <developer>
+            <id>elans3</id>
+            <name>Elan Thangamani</name>
+            <email>elan.thangamani@virtualan.io</email>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
